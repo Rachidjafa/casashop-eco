@@ -1,0 +1,829 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;600;700&family=Montserrat:wght@400;500;600;700;800;900&family=Mukta:wght@500;600;700;800&family=Open+Sans:wght@400;500;600;700;800&family=Oswald:wght@200;400;500;600;700&family=Roboto+Condensed:wght@700&family=Roboto:wght@300;400;500;700;900&display=swap");
+body {
+  background-color: #f8f8f8;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.card {
+  margin-top: 20px;
+  box-sizing: border-box;
+  height: 360px;
+  border: none;
+}
+
+#remov-orders {
+  margin-left: 10px;
+}
+
+/* ------------------------------------------- Hom -------------------------------------------------------------- */
+
+.hom-section {
+  height: 90vh;
+}
+
+.hom-h1 {
+  font-family: "Times New Roman", Times, serif;
+  line-height: 62px;
+  font-weight: bolder;
+  font-family: "Montserrat", sans-serif;
+  margin-left: -22px;
+  margin-top: 30px;
+}
+
+#hom-img {
+  position: absolute;
+  left: 768px;
+  top: 83px;
+  filter: drop-shadow(0 0 20px #a10c1f);
+  font-family: "Montserrat", sans-serif;
+  pointer-events: painted;
+  cursor: pointer;
+}
+
+#star {
+  position: absolute;
+  transform: rotate(20deg);
+  left: 749px;
+  top: 45px;
+  font-family: "Montserrat", sans-serif;
+  filter: blur(2px);
+}
+
+.social-media {
+  position: static;
+  margin-top: 32px;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+#img2,
+#img3,
+#img4,
+#img5,
+#img6 {
+  margin-left: 35px;
+}
+
+#img1:hover {
+  transform: scale(1.1);
+}
+#img2:hover {
+  transform: scale(1.1);
+}
+#img3:hover {
+  transform: scale(1.1);
+}
+#img4:hover {
+  transform: scale(1.1);
+}
+#img5:hover {
+  transform: scale(1.1);
+}
+#img6:hover {
+  transform: scale(1.1);
+}
+
+.btns-marque {
+  display: flex;
+  justify-content: center;
+}
+
+#btn-mark {
+  margin-left: 30px;
+}
+
+#ddd {
+  position: absolute;
+  left: 224px;
+  top: 300px;
+}
+#pro {
+  position: absolute;
+  justify-content: center;
+}
+
+.product-hom-section {
+  margin-top: -62px;
+}
+
+.h1-hom-product {
+  text-align: center;
+  font-weight: bolder;
+  font-family: "Montserrat", sans-serif;
+}
+
+#product_title {
+  width: 600px;
+  font-size: 40px;
+}
+
+#product_price {
+  font-weight: bolder;
+  font-size: 20px;
+}
+#card-body {
+  position: relative;
+  left: 450px;
+  top: -115%;
+}
+
+#Cart {
+  background-color: #006233;
+  border-radius: 0px 40px;
+  padding: 14px;
+  border: none;
+  filter: drop-shadow(0 0 12px #006233);
+}
+
+#like {
+  background-color: #a10c1f;
+  border-radius: 40px 0px;
+  padding: 14px;
+  border: none;
+  filter: drop-shadow(0 0 12px #a10c1f);
+}
+
+.cart-like {
+  position: relative;
+  left: 20px;
+}
+#number {
+  font-weight: bold;
+}
+#Add_to_cart {
+  width: 300px;
+  margin-top: 8px;
+  padding: 14px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-size: 19px;
+}
+
+#Add_to_like {
+  width: 100px;
+  margin-top: 8px;
+  padding: 14px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-size: 19px;
+  margin-left: 10px;
+  position: absolute;
+}
+
+#Buy {
+  width: 150px;
+  padding-left: 28px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  margin-left: -14px;
+  background-color: #006233;
+  border: none;
+}
+
+#Buy:hover {
+  transform: scale(1.1);
+}
+
+#mor {
+  width: 200px;
+  margin-top: 40px;
+  padding-left: 20px;
+  border-radius: 90px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn-mor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h1-about {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.h5-about {
+  text-align: center;
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+#cont-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img-about {
+  border-radius: 30% 70% 30% 70% / 30% 30% 70% 60%;
+}
+
+.liv-section {
+  height: 100vh;
+  background-color: #212529;
+  margin-top: 95px;
+}
+
+.h1-locla {
+  padding: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  color: #fff;
+}
+
+.fast {
+  width: 369px;
+  margin-top: -10px;
+}
+
+.deliv-element {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.h3-locla {
+  padding: 29px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  color: #fff;
+  margin-top: -14px;
+  text-align: center;
+}
+
+.img-locla {
+  margin-left: 88px;
+}
+
+.can {
+  height: 100vh;
+}
+.can-pack {
+  margin-top: 40px;
+}
+.h1-can {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  color: #fff;
+  text-align: center;
+  font-weight: bolder;
+  position: absolute;
+  top: 1950px;
+  left: 106px;
+}
+.h5-can {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  color: #a10c1f;
+  text-align: center;
+  position: absolute;
+  font-weight: bold;
+  top: 2003px; /* wyak tzbali hhhhhh */
+  left: 106px;
+}
+#scroll-container {
+  overflow: scroll;
+  white-space: nowrap;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+#scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+#scroll-container img {
+  padding: 12px;
+  width: 300px;
+}
+
+.card {
+  background-color: transparent;
+}
+
+.size-btns-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 600px;
+  margin: 10px;
+}
+
+#size-btn {
+  padding: 14px;
+  width: 90px;
+  margin-left: 20px;
+}
+
+#size-btn1 {
+  padding: 14px;
+  width: 90px;
+}
+
+#size-btn8 {
+  padding: 14px;
+  width: 90px;
+  margin-top: 10px;
+}
+
+#size-btn:hover {
+  background-color: #21252940;
+}
+
+#size-btn1:hover {
+  background-color: #21252940;
+}
+
+#size-btn8:hover {
+  background-color: #21252940;
+}
+
+#product-images {
+  pointer-events: painted;
+  cursor: pointer;
+}
+
+#product-images:hover {
+  transform: scale(1.1);
+}
+
+#hom-img:hover {
+  transform: scale(1.1);
+}
+
+#li-navlink:active {
+  background-color: #fff;
+  color: #212529;
+}
+
+#link-back {
+  width: 40px;
+}
+
+#back {
+  position: absolute;
+  width: 40px;
+  top: -10px;
+  margin-left: -10px;
+  background-color: transparent;
+  border: none;
+  top: -10px;
+}
+
+#img-back {
+  width: 40px;
+}
+
+#casa {
+  color: #006233;
+  filter: drop-shadow(0 0 15px #006233);
+}
+
+#shop {
+  color: #a10c1f;
+  filter: drop-shadow(0 0 15px #a10c1f);
+}
+
+#brand {
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.add-jaime {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+/* -------------------------------------- Orders ------------------------------------------- */
+
+#container-1 {
+  display: flex;
+  flex-direction: column;
+}
+#orders-card {
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  height: 290px;
+}
+
+.card-body {
+  margin-left: 20px;
+}
+
+#h5-order {
+  width: 800px;
+  font-size: 30px;
+}
+
+#remov {
+  position: absolute;
+  width: 40px;
+  top: -10px;
+  margin-left: 65rem;
+  background-color: transparent;
+  border: none;
+}
+
+#Payment {
+  width: 300px;
+  margin-top: 8px;
+  padding: 14px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-size: 19px;
+  border-radius: 50px;
+  margin-top: 37px;
+}
+
+#Payment-2 {
+  width: 300px;
+  margin-top: 8px;
+  padding: 14px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-size: 19px;
+  border-radius: 50px;
+  margin-left: 10px;
+  margin-top: 37px;
+}
+
+#Payment-2:hover {
+  background-color: transparent;
+}
+
+.walo-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ---------------------------- contact -------------------------------------- */
+
+#conatct-container {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 100px;
+  margin-top: 31px;
+}
+
+.left{
+  background-image: url('../src/composants/images/Casa.png');
+  background-size: cover;
+	height: 100%;
+  position: relative;
+  margin-left: -70px;
+}
+
+.contact-box {
+  max-width: 850px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
+}
+
+.right {
+  padding: 25px 40px;
+}
+
+#h2-contact {
+  position: relative;
+  padding: 0 0 10px;
+  margin-bottom: 10px;
+}
+
+#h2-contact:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  height: 4px;
+  width: 50px;
+  border-radius: 2px;
+  background-color: #006233;
+}
+
+.field {
+  width: 100%;
+  border: 2px solid rgba(0, 0, 0, 0);
+  outline: none;
+  background-color: rgba(230, 230, 230, 0.6);
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  margin-bottom: 22px;
+  transition: 0.3s;
+}
+
+.field:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+  min-height: 150px;
+}
+
+#btn-contatct {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  background-color: #006233;
+  color: #fff;
+  font-size: 1.1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#btn-contatct:hover {
+  background-color: #03522b;
+}
+
+.field:focus {
+  border: 2px solid rgba(30, 85, 250, 0.47);
+  background-color: #fff;
+}
+
+@media screen and (max-width: 880px) {
+  #conatct-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 126px;
+  }
+  .left{
+    background-position-y: -80px;
+    height: 150px;
+    margin-left: 0;
+  }
+  .contact-box {
+    grid-template-columns: 1fr;
+  }
+  .right{
+    width: 330px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .can-pack .h1-can,
+  .h5-can {
+    display: none;
+  }
+  .deliv-element {
+    display: flex;
+    flex-direction: column;
+    margin-top: -10px;
+  }
+  .liv-section {
+    height: 112vh;
+    padding: 0;
+    width: 100%;
+    margin-top: -190px;
+  }
+  #container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hom-section {
+    display: none;
+  }
+  .hom-section-2 {
+    display: block;
+    height: 52vh;
+    margin-top: -6px;
+    background-image: url('../src/composants/images/Casa.png');
+    background-size: cover;
+    background-repeat: no-repeat ;
+    background-position-y: -164px ;
+    background-position-x: -20px ;
+  }
+  .hom-h1 {
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    line-height: 47px;
+    font-weight: bolder;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 20px;
+    margin-left: 2px;
+    position: relative;
+    top: 90px;
+  }
+  .social-media {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: -30px;
+  }
+
+  .buy-socila{
+    margin-top: 85px;
+  }
+  .h1-h5-can {
+    display: block;
+  }
+  .h1-can-2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    color: #212529;
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+  .h5-can-2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    color: #a10c1f;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  .buy-socila {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar-nav {
+    margin-left: -140px;
+  }
+  .nav-item {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+  }
+  /* -------- product-d ------------- */
+
+  #cart-product-d{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 180px;
+  }
+
+  #back{
+    position: absolute;
+    top: -205px;
+    left: 10px;
+  }
+  #prduct-d-img,
+  #img-orders {
+    width: 335px;
+    height: 340px;
+  }
+
+  #card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: static;
+    margin-left: 40px;
+  }
+  #product_title {
+    width: 300px;
+    font-size: 32px;
+  }
+
+  .size-btns-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 290px;
+    margin: 10px;
+    margin-top: 10px;
+  }
+
+  #size-btn {
+    padding: 10px;
+    width: 100px;
+    margin-left: 10px;
+  }
+
+  #size-btn1 {
+    padding: 10px;
+    width: 100px;
+  }
+
+  #size-btn8 {
+    padding: 10px;
+    width: 100px;
+    margin-left: 10px;
+  }
+
+  #size-btn:hover {
+    background-color: #21252940;
+  }
+
+  #size-btn1:hover {
+    background-color: #21252940;
+  }
+
+  #size-btn8:hover {
+    background-color: #21252940;
+  }
+
+  #container-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -18px;
+    left: -5px;
+  }
+  #Add_to_like {
+    width: 300px;
+    margin-top: 8px;
+    padding: 14px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    font-size: 19px;
+    position: static;
+    margin-left: 0.99px;
+  }
+
+  #orders-card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #remov {
+    position: absolute;
+    width: 40px;
+    top: -10px;
+    margin-left: -10px;
+    background-color: transparent;
+    border: none;
+    top: -10px;
+  }
+
+  #h5-order {
+    width: 300px;
+    font-size: 32px;
+    margin-left: -25px;
+  }
+  #product_price_orders,
+  #h4-orders-d {
+    margin-left: -25px;
+  }
+
+  #Payment {
+    margin-left: 10px;
+  }
+
+  #Payment-2 {
+    margin-top: 8px;
+  }
+
+  #orders-card {
+    height: 685px;
+  }
+
+  .Payment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+  }
+
+  .walo-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 65px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .hom-section-2 {
+    display: none;
+  }
+  .hom-section {
+    display: block;
+  }
+  .h1-h5-can {
+    display: none;
+  }
+}
